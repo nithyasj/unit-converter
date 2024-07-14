@@ -1,0 +1,136 @@
+/* Set margin of all elements and background color*/
+body {
+    margin: 10px;
+    background-color: black;
+}
+
+/*Style home section*/
+#home {
+    margin-top: -1;
+    margin-left: -1;
+    margin-right: -1;
+    padding-bottom: 2cm;
+    background-color: rgb(226, 184, 249);
+}
+
+/*Style header section*/
+header {
+    font-size: 30px;
+    color: rgb(97, 0, 109);
+    float: left;
+    padding-left: 2cm;
+    padding-top: 0.5cm;
+}
+
+/*Navigation bar*/
+nav {
+    float: right;
+    padding-right: 1cm;
+}
+
+/*Navigation bar buttons*/
+nav button {
+    color:aliceblue;
+    background-color: rgb(97, 0, 109);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1mm;
+    font-size: 20px;
+}
+
+/*Navigation bar buttons when hovering*/
+nav button:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: #382742;
+    text-decoration: underline;
+}
+
+/*Styling all conversion sections*/
+#all-conversion-sections {
+    display: grid;
+    justify-content: center;
+}
+
+/*Figure tag*/
+figure {
+    float:left; 
+    justify-self: auto; 
+    width:200px
+}
+
+/*Image styling*/
+img {
+    width: 190px;
+}
+
+/*Figure captions*/
+figcaption {
+    color:black;
+    font-size: 17px;
+    text-align: center;
+}
+
+/*Convert button styling*/
+button{
+    font-size: 15px;
+    border: transparent;
+    width: fit-content;
+    background-color: rgb(226, 184, 249);
+    border-radius: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/*Button styling on hover*/
+button:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+/* The calculator panel */
+.b {
+    border-top-style: solid;
+    background-color: white;
+    border-top-color: rgb(97, 0, 109);
+    border-top-width: 20px;
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: flex;
+}
+
+
+
+legend {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+fieldset {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/*Home button*/
+#go-home {
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background-color: rgb(225, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:10px;
+    left: 10px;
+}
+
+#go-home:hover {
+    background-color: rgb(184, 182, 182);
+}
+
+#go-home img {
+    width:40px
+}
