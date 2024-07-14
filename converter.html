@@ -42,22 +42,23 @@
               <legend>Temperature</legend>
 
               <!-- Label for Temperature input -->
-              <label for="Temperature">Celsius</label> <br/>
-              <input type="number" id="c"> <br/>
+              <label for="c">Celsius</label> <br/>
+              <input type="decimal" id="c"> <br/>
 
               <!--Conversion button-->
-              <button id = "temperature" onclick = "convert('c','f','cTof','fToc')"> Convert </button> <br/>
+              <button id = "convert1" onclick = "convert('c','f','cTof','fToc')"> Convert </button> 
+              <button id = "clear1" onclick = "clear('c','f')">Clear</button> <br/>
 
               <!-- Label for Temperature output -->
-              <input type="number" id="f"> <br/>
-              <label for="Temperature">Fahrenheit</label>
+              <input type="decimal" id="f"> <br/>
+              <label for="f">Fahrenheit</label>
 
             </fieldset>
           </article>
 
           <!--To show users the calculation-->
           <aside>
-            To convert Celsius to Fahrenheit yourself, use this formula replacing the 'C' with your temperature in Celsius: (C × 9/5) + 32
+            To convert yourself, use these formulas: Fahrenheit = (Celsius × 9/5) + 32, Celsius = (Fahrenheit - 32) x 5/9
           </aside>
 
         </div>
@@ -81,13 +82,14 @@
 
               <!--Label for Kilogram input-->
               <label for = "Weight">Kilogram</label> <br/>
-              <input type="number" id="kg"> <br/>
+              <input type="decimal" id="kg"> <br/>
 
               <!--Conversion button-->
-              <button id = "weight" onclick = "convert('kg','lb','kgTolb','lbTokg')"> Convert </button> <br/>
+              <button id = "convert2" onclick = "convert('kg','lb','kgTolb','lbTokg')"> Convert </button> 
+              <button id = "clear2" onclick = "clear('kg','lb')">Clear</button> <br/>
 
               <!--Label for Pounds output-->
-              <input type="number" id="lb"> <br/>
+              <input type="decimal" id="lb"> <br/>
               <label for = "Weight">Pounds</label> <br/>
 
             </fieldset>
@@ -95,7 +97,7 @@
 
           <!--To show users the calculation-->
           <aside>
-            To convert Kilograms to Pounds yourself, use this formula replacing the 'kg' with your weight in Kilograms: kg x 2.205
+            To convert yourself, use these formulas: Kilograms = Pounds ÷ 2.205, Pounds = Kilograms x 2.205
           </aside>
 
         </div>
@@ -121,13 +123,14 @@
 
               <!--Label for Kilometer input-->
               <label for = "Distance">Kilometer</label> <br/>
-              <input type = "number" id = "km"> <br/>
+              <input type = "decimal" id = "km"> <br/>
 
               <!--Conversion button-->
-              <button id = "distance" onclick = "convert('km','mi','kmTomi','miTokm')">Convert</button> <br/>
+              <button id = "convert3" onclick = "convert('km','mi','kmTomi','miTokm')">Convert</button>
+              <button id = "clear3" onclick = "clear('km','mi')">Clear</button> <br/>
 
               <!--Label for Miles output-->
-              <input type = "number" id = "mi"> <br/>
+              <input type = "decimal" id = "mi"> <br/>
               <label for = "Distance">Miles</label> <br/>
 
             </fieldset>
@@ -135,7 +138,7 @@
 
           <!--To show users the calculation-->
           <aside>
-            To convert Kilometers to Miles yourself, use this formula replacing the 'km' with your distance in Kilometers: km ÷ 1.609
+            To convert yourself, use these formulas: Kilometers = Miles x 1.62137, Miles = Kilometers ÷ 1.62137
           </aside>
           <br/>
 
