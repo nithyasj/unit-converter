@@ -67,6 +67,6 @@ function convert(id1, id2, func1, func2) {
 
 // Clears the specified fields
 function clear(id1, id2) {
-    document.getElementById("c").value = "";
-    document.getElementById("f").value = "";
+    document.getElementById(id1).value = "";
+    document.getElementById(id2).value = "";
 }
